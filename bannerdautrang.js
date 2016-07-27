@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href=' http://www.newskyvn.com/' target='_blank'><img src='https://mail.google.com/mail/u/0/?ui=2&ik=c2278ca7fb&view=att&th=1562b9c5d8cbd8c5&attid=0.1&disp=safe&realattid=f_ir4o6x6m0&zw' width='500px'/><br/>13 bán hàng cảm biến chất lượng</a>. Công ty Tân Thiên. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href=' http://www.newskyvn.com/' target='_blank'><img src='blob:https%3A//mail.google.com/e27bc8e0-569c-4f6e-b66a-260006c13d42' width='500px'/><br/>bán hàng cảm biến chất lượng</a>. Công ty Tân Thiên. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
