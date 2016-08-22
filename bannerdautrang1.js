@@ -109,15 +109,15 @@
     }//orbit plugin call
 })(jQuery);
         
-$(window).load(function() {
+jQuery(window).load(function() {
 		if(document.cookie.indexOf("adf") == -1)
 		{
 			document.cookie = "adfpopunder1=adf";
 			var divpopup = document.createElement("div");
-			$(divpopup).attr('id', 'myModal');
-			$(divpopup).attr('class', 'linhnguyen-modal');
-			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://www.xn--tnthin-wta2e.vn/' target='_blank'><img src='https://lh4.googleusercontent.com/-4CTTTlqvJCg/V5ioaAwU_QI/AAAAAAAAACs/Y6roWSuxUEQpU6fZ_eaDnAutlxuCB4v9ACL0B/w729-h459-no/e27bc8e0-569c-4f6e-b66a-260006c13d42.jpg' width='500px'/><br/>ĐẠI LÝ PEPPERL-FUCHS</a>. PEPPERL-FUCHS DISTRIBUTORS. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
-			$('#myModal').linhnguyen($('#myModal').data());
+			jQuery(divpopup).attr('id', 'myModal');
+			jQuery(divpopup).attr('class', 'linhnguyen-modal');
+			jQuery( "body" ).append(divpopup);
+			jQuery("#myModal").html("<a href='http://www.xn--tnthin-wta2e.vn/' target='_blank'><img src='https://lh4.googleusercontent.com/-4CTTTlqvJCg/V5ioaAwU_QI/AAAAAAAAACs/Y6roWSuxUEQpU6fZ_eaDnAutlxuCB4v9ACL0B/w729-h459-no/e27bc8e0-569c-4f6e-b66a-260006c13d42.jpg' width='500px'/><br/>ĐẠI LÝ PEPPERL-FUCHS</a>. PEPPERL-FUCHS DISTRIBUTORS. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
